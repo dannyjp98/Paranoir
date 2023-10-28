@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\danny\\\\Documents\\\\Unreal Projects\\\\Paranoir\\\\Source\\\\Paranoir\\\\MyClass.cpp",
+		"command": "cl.exe @\"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\.vscode\\compileCommands_Default\\Paranoir.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\danny\\\\Documents\\\\Unreal Projects\\\\Paranoir\\\\Source\\\\Paranoir\\\\MyClass.h",
+		"command": "cl.exe @\"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\.vscode\\compileCommands_Default\\Paranoir.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\danny\\\\Documents\\\\Unreal Projects\\\\Paranoir\\\\Source\\\\Paranoir\\\\Paranoir.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\.vscode\\compileCommands_Default\\Paranoir.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\danny\\\\Documents\\\\Unreal Projects\\\\Paranoir\\\\Source\\\\Paranoir\\\\Paranoir.cpp",
+		"command": "cl.exe @\"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\.vscode\\compileCommands_Default\\Paranoir.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\danny\\\\Documents\\\\Unreal Projects\\\\Paranoir\\\\Source\\\\Paranoir\\\\Paranoir.h",
+		"command": "cl.exe @\"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\.vscode\\compileCommands_Default\\Paranoir.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]

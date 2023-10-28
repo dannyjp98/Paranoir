@@ -1,0 +1,1517 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Paranoir Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win32",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"Win64",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"IOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Shipping",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Paranoir TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "Paranoir TVOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Paranoir",
+				"TVOS",
+				"Test",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ParanoirEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ParanoirEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ParanoirEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "ParanoirEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ParanoirEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\danny\\Documents\\Unreal Projects\\Paranoir\\Paranoir.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		}
+	]
+}
